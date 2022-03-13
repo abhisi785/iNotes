@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(rgb(73, 68, 68), rgb(247, 247, 193));
+    
+}
+
+
+.mainheader{
+    display: inline-block;
+    border-top: 1px solid #f3eaea;
+    border-radius: 25%;
+    width: 360px;          
+    padding-left: 24px;
+    margin-left: -28px;
+    color: #995ef7;
+    box-shadow: 9px 10px 9px 4px rgb(241, 233, 233);
+}
+
+.form-controls{
+    display: block;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: rgb(0, 0, 0);
+}
+.form-label{
+    color: white;
+    padding-top: 12px;
+}
+.edit{
+    color: white;
+}
+input::placeholder{
+    color: red;
+}
+textarea::placeholder{
+    color: red;
+}
+.btns{
+    border-top: 1px solid #f3eaea;
+    border-radius: 25%;        
+    padding-left: 24px;
+    margin-left: -28px;
+    color:white;
+    box-shadow: 2px 2px 9px 3px rgb(241, 233, 233); 
+}
